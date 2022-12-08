@@ -40,16 +40,6 @@ frameEntrada.pack(padx=15, pady=10)
 entradaTexto.pack(padx=10, fill='both', expand='yes')
 
 #Saída da tradução
-frameSaida = ttk.Frame()
-labelSaida = ttk.Label(frameSaida, text='Traduzir para: ') 
-comboSaida = ttk.Combobox(frameSaida, values=values)
-saidaTraducao = Text(height=10, width=50)
-
-labelSaida.grid(row=0, column=0, )
-comboSaida.grid(row=0, column=1)
-frameSaida.pack( padx=10, pady=10)
-
-saidaTraducao.pack(padx=10, fill='both', expand='yes')
 
 box.pack()
 
